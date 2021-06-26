@@ -1,0 +1,6 @@
+1. In production, the new files will keep stacking in /data/log_data/... or /data/song_data what is the better practice to do the ETL?
+    a. Should I relaod the path like I did in project every time which I can see the problem already when there are big amount of data....
+    b. To Keep track on the files already loaded in a map table. Before process the ETL check that mapping table first only load the new table ... however i can see a lot of maintain work and confusion already .. ex: rerun the ETL would messing the mapping table ....  
+    c. Or there are better way to do it?
+    
+2. In production, Is it a good practice to insert data one by one? I mean commit every row ..?
